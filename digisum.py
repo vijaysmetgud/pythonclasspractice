@@ -1,4 +1,4 @@
-number = 1000
+number = 9655
 q = 0
 sum = 0
 remainder = 0
