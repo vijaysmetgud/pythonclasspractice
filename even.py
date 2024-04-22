@@ -1,13 +1,17 @@
+import snoop
+@ snoop
+
+
 def is_even(number: int):
    if number <= 0:
       return False
    
    if number % 2 == 0: 
       print(number, end="-")
-      print("EVEN", end=",") 
+      print("is EVEN", end=", ") 
    else:
       print(number, end="-")
-      print("ODD", end=" ")   
+      print("is ODD", end=", ")   
 
 
 
