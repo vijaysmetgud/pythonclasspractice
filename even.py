@@ -1,13 +1,18 @@
 def is_even(number: int):
    if number <= 0:
       return False
+   
    if number % 2 == 0: 
-      return number
+      print(number, end="-")
+      print("EVEN", end=",") 
+   else:
+      print(number, end="-")
+      print("ODD", end=" ")   
 
 
 
-for index in range(10,25):
-   if is_even(index):
-       print(index,end="  ")
+for value in range(1, 10):
+    is_even(value)
+       
 
     
